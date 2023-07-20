@@ -16,7 +16,7 @@ public abstract class Shape{
     }
 
     public String toString() {
-        return String.format("Shape[type=%s, area=%f,perimeter=%f]|",
+        return String.format("Shape[type=%s, area=%.2f,perimeter=%.2f]|",
             name, getArea(), getPerimeter());
     }
 }
